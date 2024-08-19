@@ -1,0 +1,59 @@
+/* Container for the entire InputBox */
+.Box1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 10px;
+}
+
+/* Container for each input group (label + input/select) */
+.Box2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* Label styling */
+.lab {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input field styling */
+.Ip1 {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s;
+}
+
+.Ip1:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+/* Select dropdown styling */
+.Opt {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.3s;
+}
+
+.Opt:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+/* Paragraph styling for Currency Type label */
+.Box2 p {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    color: #333;
+}
